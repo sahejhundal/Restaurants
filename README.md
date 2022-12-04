@@ -1,6 +1,6 @@
 # Restaurants
 
-###Welcome!
+### Welcome!
 
 This app is a review and social networking app intended for restaurants. 
 It allows users to sign up, and view restaurants, their menus and place orders. 
@@ -13,58 +13,60 @@ Maybe, it will get any updates, most likely not.
 
 
 
-DEMO
+# DEMO
+
 
 ## First time user landing view (logged out)
 
 ### Login
-![Login]([i]login.png)
+<img src="https://i.imgur.com/SJSM4Vz.png" alt="Login" width="200"/>
 
 ### Register
-![Register]([i]register.png)
+<img src="https://i.imgur.com/O04T4wY.png" alt="Register" width="200"/>
 
 ### Forgot Password
-![Forgot Password]([i]forgotpassword.png)
+<img src="https://i.imgur.com/4OORziH.png" alt="Forgot Password" width="200"/>
 
 
 
-## Home view (logged in)
+## User view (logged in)
 
 ### All Restaurants Feed
-![Home]([i]home.png)
+<img src="https://i.imgur.com/3CSZx9r.png" alt="All Restaurants Feed" width="200"/>
 
-  #### Inside Restaurant Profile
+#### Restaurant Profile
 
-    ##### View for user who hasn't reviewed
-    ![Profile]([i]profiledetailworeview.png)
+  ##### View for user who hasn't reviewed
+  <img src="https://i.imgur.com/AHCVf2o.png" alt="View for user who hasn't reviewed" width="200"/>
 
-    ##### View for user who has reviewed
-    ![Profile]([i]profiledetailwreview.png)
-  
-  #### Inside Profile's Dish
-  
-    ##### View for user who hasn't reviewed
-    ![Dish]([i]dishdetail.png)
+  ##### View for user who has reviewed
+  <img src="https://i.imgur.com/yKOs1eE.png" alt="View for user who has reviewed" width="200"/>
 
-    ##### View for user who has reviewed
-    ![More dish]([i]dishdetail2.png)
+
+#### Restaurant Dish
+
+  ##### Dish
+  <img src="https://i.imgur.com/NfPtWEX.png" alt="Dish" width="200"/>
+
+  ##### More dish
+  <img src="https://i.imgur.com/N1xRMrO.png" alt="More dish" width="200"/>
 
 ### Cart
 
   #### Empty cart
-  ![Empty Cart]([i]cart.png)
+  <img src="https://i.imgur.com/lkXHZfe.png" alt="Empty cart" width="200"/>
   
   #### Non-empty cart
-  ![Non-empty Cart]([i]cart2.png)
+  <img src="https://i.imgur.com/kGTHQbK.png" alt="Non-empty cart" width="200"/>
 
 ### Profile Tab
-![Profile Tab]([i]profiletab.png)
+<img src="https://i.imgur.com/B8oV9ch.png" alt="Profile Tab" width="200"/>
 
    #### Menu Builder
-   ![Menu Builder]([i]profiletab.png)
+   <img src="https://i.imgur.com/V8snGzE.png" alt="Menu Builder" width="200"/>
    
    #### Profile Editor
-   ![Profile Editor]([i]profileeditor.png)
+   <img src="https://i.imgur.com/kRkSm3t.png" alt="Profile Editor" width="200"/>
 
 
 
