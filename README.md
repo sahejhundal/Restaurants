@@ -2,7 +2,7 @@
 
 ### Welcome!
 
-This app is a review and social networking app intended for restaurants. 
+This is a review and social networking app intended for restaurants. 
 It allows users to sign up, and view restaurants, their menus and place orders. 
 Restaurants are able to build their restaurant profiles and their menus.
 Users can also rate restaurants and each of its dishes separately including an optional picture.
