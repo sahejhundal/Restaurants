@@ -9,6 +9,7 @@ import Foundation
 
 class CartViewModel: ObservableObject{
     @Published var cartItems : [String: CartItem] = [:]
+    @Published var total: Double = 0
     
     func clearCart(){
         self.cartItems = [:]
@@ -66,6 +67,10 @@ class CartViewModel: ObservableObject{
                 print("Error getting documents: \(err)")
             } else {
                 for document in querySnapshot!.documents {
+                    if self.cartItems[document.documentID] != nil{
+                        print("bs detected")
+                        continue
+                    }
                     let data = document.data()
                     let id = document.documentID.description.description
                     let dishname = data["dishname"] as? String ?? ""
@@ -78,6 +83,7 @@ class CartViewModel: ObservableObject{
                     let item = CartItem(id: id, dishname: dishname, dishId: dishId, quantity: quantity, price: price, instructions: instructions, restaurantName: restaurantName, restaurantId: restaurantId)
                     DispatchQueue.main.async {
                         self.cartItems[id] = item
+                        self.total += price * Double(quantity)
                     }
                 }
                 return

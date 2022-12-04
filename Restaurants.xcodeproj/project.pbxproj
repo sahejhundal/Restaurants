@@ -103,9 +103,6 @@
 		F64B78B328B96FDB00AD440D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F64B78B528B96FDD00AD440D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64B78B828B96FDD00AD440D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F64B78C228B96FDD00AD440D /* RestaurantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTests.swift; sourceTree = "<group>"; };
-		F64B78CC28B96FDD00AD440D /* RestaurantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsUITests.swift; sourceTree = "<group>"; };
-		F64B78CE28B96FDD00AD440D /* RestaurantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F64B78DB28B974A300AD440D /* UserLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLandingView.swift; sourceTree = "<group>"; };
 		F64B78DF28B977CD00AD440D /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		F64B78E228B97CE500AD440D /* dishes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dishes.json; path = ../../../../../Downloads/dishes.json; sourceTree = "<group>"; };
@@ -263,8 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				F64B78B028B96FDB00AD440D /* Restaurants */,
-				F64B78C128B96FDD00AD440D /* RestaurantsTests */,
-				F64B78CB28B96FDD00AD440D /* RestaurantsUITests */,
 				F64B78AF28B96FDB00AD440D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -300,23 +295,6 @@
 				F64B78B828B96FDD00AD440D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F64B78C128B96FDD00AD440D /* RestaurantsTests */ = {
-			isa = PBXGroup;
-			children = (
-				F64B78C228B96FDD00AD440D /* RestaurantsTests.swift */,
-			);
-			path = RestaurantsTests;
-			sourceTree = "<group>";
-		};
-		F64B78CB28B96FDD00AD440D /* RestaurantsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F64B78CC28B96FDD00AD440D /* RestaurantsUITests.swift */,
-				F64B78CE28B96FDD00AD440D /* RestaurantsUITestsLaunchTests.swift */,
-			);
-			path = RestaurantsUITests;
 			sourceTree = "<group>";
 		};
 		F64B78DD28B9777000AD440D /* Views */ = {

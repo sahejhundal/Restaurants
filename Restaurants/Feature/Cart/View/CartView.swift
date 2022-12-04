@@ -28,6 +28,13 @@ struct CartView: View {
                         }
                     }
                     
+                    if vm.total != 0{
+                        HStack{
+                            Spacer()
+                            Text("Total: $\(String(vm.total))").foregroundColor(.white).font(.system(size: 16,weight: .bold,design: .monospaced)).padding(.horizontal,5).padding(.vertical,1).background(.black)
+                        }
+                        .padding(.horizontal)
+                    }
                     ButtonComponentView(title: "Checkout",
                                         background: vm.cartItems.isEmpty ? .gray : .yellow.opacity(0.7),
                                         foreground: .black,

@@ -11,9 +11,13 @@ struct LoginView: View {
     @StateObject var vm = LoginViewModelImpl(service: LoginServiceImpl())
     @State var showRegistration: Bool = false
     @State var showForgotPassword: Bool = false
+    @State var text = ""
+    @State var placeholder = "Email"
+    @State var sfSymbol = "envelope"
+    private let textFieldLeading: CGFloat = 30
     var body: some View {
         VStack{
-            InputTextField(text: $vm.credentials.email, placeholder: "Email", keyboardType: .emailAddress, sfSymbol: "envelope")
+            InputTextField(text: $vm.credentials.email, placeholder: "Email", keyboardType: .emailAddress, sfSymbol: "envelope").autocorrectionDisabled()
                 
             PasswordField(text: $vm.credentials.password, placeholder: "Password", sfSymbol: "key")
             
